@@ -1,0 +1,140 @@
+/*Header*/
+.cont{
+    height: 36rem;
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/c4370854094307.594caa7ea3765.gif);
+    background-size:100% 45rem;
+    padding: 1rem;
+}
+nav ul li a{
+    font-weight: 800;
+    font-size: 1rem;
+}
+header nav ul li a:hover{
+    border-bottom: 5px solid blue;
+}
+.texto1{
+    color: #fff;
+    padding: 5rem;
+}
+.texto1 h1{
+    font-size: 3rem;
+}
+.texto1 p{
+    font-size: 1.5rem;
+}
+.boton{
+    width: 15rem;
+    height: 3rem;
+    background: #0653B6;
+    border: none;
+    color: #fff;
+    border: solid 2px black;
+}
+.btn:hover{
+    background-color: #835D44;
+}
+
+/*body*/
+h1{
+    font-size: 3rem;
+    padding: 0 0 0 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+body p{
+    padding: 0 0 0 2rem; 
+    font-size: 1.3rem;
+}
+
+
+.container .card{
+height: 40rem;
+}
+
+
+
+.imagen1{
+    background-image:url(https://www.bmw.com.do/content/bmw/marketLATAM/bmw_com_do/es_DO/all-models/x-series/X1/2019/inspire/jcr:content/par/highlight_2b64/highlightitems/highlightitem_4c61/image/mobile.transform/highlight/image.1566824240805.jpg) ;
+    background-size: 35rem 40rem;
+}
+.imagen2{
+    background-image: url(https://www.bmw.hn/content/bmw/marketLATAM/bmw_hn/es_HN/all-models/x-series/X1/2019/inspire/jcr:content/par/highlight_2b64/highlightitems/highlightitem_6a3f/image/mobile.transform/highlight/image.1566824244460.jpg);
+    background-size: 35rem 40rem;
+}
+.imagen3{
+    background-image: url(https://wallpaperstock.net/wallpapers/thumbs1/14232.jpg);
+    
+}
+.imagen1:hover{
+    transition: all 0.5s;
+    transform: scale(1.1);
+}
+.imagen2:hover{
+    transition: all 0.5s;
+    transform: scale(1.1);
+}
+.imagen3:hover{
+    transition: all 0.5s;
+    transform: scale(1.1);
+}
+
+/*imagenes del auto*/
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 33.3%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    filter: grayscale(1) brightness(0.5);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s linear;
+  }
+  .column img:hover {
+    filter: grayscale(0);
+    transition: all 0.5s;
+    transform: scale(0.9);
+  }
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+
+
+.medio{
+    background-image: url(https://www.bmw.es/content/dam/bmw/common/all-models/x-series/x1/2019/inspire/bmw-x-series-x1-inspire-stage-desktop.jpg) ;
+    height: 35rem;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.medio h1{
+    padding: 2rem 0 0 2rem;
+}
+
+@media screen and (max-width: 600px) {
+    .medio {
+      background-size: 40rem 20rem;
+      background-repeat: no-repeat;
+    }
+  }
