@@ -1,0 +1,69 @@
+/*Header*/
+.cont{
+    height: 36rem;
+    background-image: url(https://www.bmw.com.bo/content/dam/bmw/common/topics/fascination-bmw/concept-vehicles/bmw-vision-inext/bmw-vision-i-next-stage-xxl-desktop.jpg/_jcr_content/renditions/cq5dam.resized.img.1680.large.time1536048585849.jpg);
+    background-size:100% 100%;
+    padding: 1rem;
+}
+nav ul li a{
+  font-weight: 800;
+  font-size: 1rem;
+}
+header nav ul li a:hover{
+  border-bottom: 5px solid blue;
+}
+.texto1{
+  color: #fff;
+  padding: 5rem;
+}
+.texto1 h1{
+  font-size: 3rem;
+}
+.texto1 p{
+  font-size: 1.5rem;
+}
+.boton{
+  width: 15rem;
+  height: 3rem;
+  background: #0653B6;
+  border: none;
+  color: #fff;
+  border: solid 2px black;
+}
+.cotiza{
+  text-align: center;
+}
+.cotiza button{
+  width: 20rem;
+  height: 2.5rem;
+  background: #0653B6;
+  border: none;
+  color: #fff;
+  border: solid 2px black;
+}
+.btn:hover{
+  background-color: #835D44;
+}
+.opciones:hover{
+  background-color:#0653B6;
+  border-radius: 10px;
+  transition: all 0.5s;
+  color: #fff;
+  border: none;
+}
+
+/*footer*/
+.jumbotron{
+    padding: 3rem;
+    text-align: right;
+}
+
+@media screen and (min-width: 1300px) {
+
+    .contenedor{
+      width: 90%;
+      max-width: 1500px;
+      margin: 0 auto;
+    }
+  
+  }

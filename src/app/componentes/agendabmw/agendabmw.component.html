@@ -1,0 +1,631 @@
+<header class="contenedor">
+    <div class="cont dropdown">
+        <nav class="navbar navbar-expand-lg navbar-dark" >
+          <a class="navbar-brand" href="#" style="color: #000;">BWM</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="background-color: #000;">
+            <span class="navbar-toggler-icon" ></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#" style="color: #000;">Servicios <span class="sr-only">(current)</span></a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item opciones" href="/serviciocliente" style="font-family: 'Times New Roman', Times, serif; " >Atencion al clientes</a>
+                  <a class="dropdown-item opciones" href="#" style="font-family: 'Times New Roman', Times, serif;">Accesorios Originales BMW</a>
+                </div>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#" style="color: #000;">Descubre <span class="sr-only">(current)</span></a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item opciones" href="/visioncars" style="font-family: 'Times New Roman', Times, serif; ">Concept Cars</a>
+                </div>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="color: #fff; border: 1px solid #fff;">Search</button>
+                <nav class="navbar navbar-light ">
+                <a class="navbar-brand" href="#" [routerLink]="[ '/redoficial']">
+                    <a href="https://icons8.com/icon/17768/código-de-región"><img src="https://img.icons8.com/ios-filled/50/000000/region-code.png"/></a>
+                </a>
+                </nav>
+                  <nav class="navbar navbar-light " [routerLink]="[ '/inicio']">
+                <a class="navbar-brand" href="#">
+                    <img src="https://img.icons8.com/ios/50/000000/bmw.png" width="50" height="50" alt="" loading="lazy">
+                </a>
+                </nav>
+            </form>
+          </div>
+        </nav>
+        <hr>
+      </div>
+</header>
+
+<body class="contenedor">
+    <div class="row">
+        <div class="col-sm-6">
+          <div class="card" style="border: none;">
+            <div class="card-body" >
+              <h5 class="card-title" style="font-size: 3rem; font-family: 'Times New Roman', Times, serif;">AGENDA TU TEST DRIVE.</h5>
+              <p class="card-text">TE INVITAMOS A REALIZAR UNA PRUEBA DE MANEJO.</p>
+              <br>
+              <p class="card-text">ELIGE EL BMW DE TU PREFERENCIA</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="carouselExampleIndicators" class="carousel ">
+        <nav aria-label="...">
+            <ul class="pagination pagination-sm opcion" style="padding: 2rem 0rem 1rem 5rem;">
+              <li class="page-item active" aria-current="page">
+                <span class="page-link" data-target="#carouselExampleIndicators" data-slide-to="x" style="background-color: #959597; padding: 2rem 2rem 2rem 2rem; font-size: 1.2rem;border-radius: 10px;" >
+                  X
+                  <span class="sr-only">(current)</span>
+                </span>
+              </li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1" class="page-item"><a class="page-link" href="#">1</a></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2" class="page-item"><a class="page-link" href="#">2</a></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="3" class="page-item"><a class="page-link" href="#">3</a></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="4" class="page-item"><a class="page-link" href="#">4</a></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="5" class="page-item"><a class="page-link" href="#">5</a></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="6" class="page-item"><a class="page-link" href="#">7</a></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="7" class="page-item"><a class="page-link" href="#">8</a></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="8" class="page-item"><a class="page-link" href="#">Z</a></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="9" class="page-item"><a class="page-link" href="#">BMW M</a></li>
+            </ul>
+          </nav>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="card-deck">
+                <div class="card">
+                  <img data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;" src="https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYfjnWy10tLhu1XzWVo7puMLWFmdkAj5DOPFtpOZ8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74giAyNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYVD9Wh1DMzti%25eeqVYDafHRAjmztYRSJdw67aftxdTQVw1RSfWQlO%25%25VxdSeZGEbuzWQdjc9NO3aeZQ6KowfXRjcZwBL%255rx6Kc%252NG84WwBKupk81Fe%252B3inXVIjup2XH5rGv63iprJ8iKGwXHi4TPHA9%25rJHFlMsOou4TJIsDRXL3FlTv0YfeyXIslGAtebCrv0s9OfjNE4GA0ogS7wNF9OALUd1XkIogOybAMBnvLUgChOD85GybUEqgNV89ChbNmUhIPoEqhk7b1DMLNmqn1hrJDyk7m5VqbIYCn178zmJttE5V1PaXslfN8zVMRr0kSkPazDxiBndnMRaYWH2qQ5DxRteJrcZ8YWxfj0wpcPteWS6AlHKMfjedwWJXBDS6jQ%25eTv2Ydw6ZujlaptQ%25wc3ZpLifZu%25KXcolHS9uAqsr%25P61U39IjAeSw27BzcQkO" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">BMW X1</h5>
+                    <p class="card-text">Gasolina</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;" src="https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYfySPv10tLhu1XzWVo7puMLWFmdkAj5DOPshO%25Z8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74giZnNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYFEjWh1DMztil6eqVYDafaiojmztYRSJ3667aftxdTfMw1RSfWQlZz%25VxdSeZsg3uzWQdjc0hf3aeZQ6KAnkXRjcZwBO5%25rx6Kc%252y5b4WwBKupCBZFe%252B3inXVIjup2XH5rGv63iprJ8VKGwXHi4TPDR9%25rJHFlMROou4TJIsDbWL3FlTv0YBEyXIslGATnUCrv0s9Ol0uE4GA0ogsU3NF9OALU0bnkIogOybAsunvLUgChOY15GybUEqgtF89ChbNmUfaPoEqhk7bIUMLNmqn1SWYDyk7m5VdQ5YCn178zQZPtE5V1PaZcTfN8zVMRcKQSkPazDxMKCdnMRaYWDA1Q5DxRteYOzZ8YWxfjtzzcPteWS6fgKKMfjedwSIZBDS6jQ%25jJr2Ydw6Zu6N4ptQ%25wc3wqSifZu%25KX%25c7HSc3uBruTtJdo3Om04uMwVbXov6Ojd%25p12aKZng" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">BMW X2</h5>
+                    <p class="card-text">Gasolina</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;" src="https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYfjn8a10tLhu1XzWVo7puMLWFmdkAj5DOPs1O%25Z8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74gSQNNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYFEjWh1DMztzC8eqVYDafa3mjmztYRSRHL67aftxdxbWw1RSfWQlSD%25VxdSeZscauzWQdjc0UX3aeZQ6KAOPXRjcZwBOmdrx6Kc%252gF54WwBKupUP8Fe%252B3ibMXIjup2XHNMmv63iprJ84aGwXHi4TPFo9%25rJHFlMa2ou4TJIsDtWL3FlTv0YheyXIslGAtq%25Crv0s9OfRoE4GA0ogs8hNF9OALU0OXkIogOybAhrnvLUgChOq85GybUEqgAX89ChbNmUfzPoEqhk7bSvMLNmqn1hdxDyk7m5VqGhYCn178zQjftE5V1PaZcPfN8zVMRcKDSkPazDxKBsdnMRaYWB2cQ5DxRte2JSZ8YWxfjtpkcPteWS6fUaKMfjedwSbXBDS6jQ%25dh22Ydw6ZuQNPptQ%25wc3ZeeifZu%25KXcmHHSc3uBru0vJdKX32438GTQBrXpFXVclZ24riIrp3scpF4Hv4AQ0KEFhzUG4fXx7IEL3huKrTRJei2Mq" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">BMW X2 M35i</h5>
+                    <p class="card-text">Gasolina</p>
+                  </div>
+                </div>
+                <div class="card">
+                    <img data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;" src="https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYf6Jpw10tLhu1XzWVo7puMLWFmdkAj5DOPR%25x%25Z8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74giZ5NF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYpzFWh1DMztIVdeqVYDafaiojmztYRSJTN67aftxdT%25yw1RSfWQlEC%25VxdSeZsNzuzWQdjc9Fk3aeZQ6KownXRjcZwBLcirx6Kc%252y9W4WwBKupCzCFe%252B3iEz3Ijup2XH5rcv63iprJ84aGwXHi4TPFo9%25rJHFlMJ2ou4TJIsDTgL3FlTv0YxryXIslGAtHbCrv0s9OfjhE4GA0ogS6kNF9OALUd1%25kIogOybQVrnvLUgChZYW5GybUEqc5O89ChbNmKwYPoEqhk7BZgMLNmqn12cjDyk7m5VqdtYCn178zm1otE5V1Pa7IsfN8zVMR1KjSkPazDxVBDdnMRaYWz2MQ5DxRteapmZ8YWxfjRi3cPteWS6xkQKMfjedwHHXBDS6jQ%25JJt2Ydw6ZuTqWptQ%25wc3lkeifZu%25KXs5JHSc3uBr0ABJdKX324AOpTQBrXpFOgVlZ24riIgUOscpF4HvUbT0KiIFJGbhgABHvIT9h8UO2JGvloqyNgpT9GsLmYMUilo90y7ahbHsLoAC14whJ0yLOEVFVqTACygNOzimlOECUkg3o7sgNEbnUX110UkNh5byyVAbnkq8hrzzOh5nmPqQ0agd56reMnTNIu8dtE6Cgk1F7Gqbpw" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">BMW X3</h5>
+                      <p class="card-text">Gasolina</p>
+                    </div>
+                  </div>
+              </div>
+              <hr class="my-4">
+            
+              <div class="card-deck">
+                <div class="card">
+                  <img data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;" src="https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYfQJVw10tLhu1XzWVo7puMLWFmdkAj5DOPR%25O%25Z8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74g37WNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYpi4Wh1DMztIVmeqVYDafH6ojmztYRSFaM67aftxd9IYw1RSfWQr4y%25VxdSeZ4FeuzWQdjcFI63aeZQ6KIvRXRjcZwBvGkrx6Kc%252G9v4WwBKup9oXFe%252B3ibXVIjup2XH3Pvv63iprJqV9GwXHi4TmtY9%25rJHFl7fuou4TJIs1S4L3FlTv0PkdyXIslGAM9QCrv0s9ODw9E4GA0ogS8cNF9OALUdc%25kIogOybQCunvLUgChZE85GybUEqcbA89ChbNmKhzPoEqhk7BXyMLNmqn12URDyk7m5VpFxYCn178ziIftE5V1PaH6GfN8zVMRJwySkPazDxTBrdnMRaYWldVQ5DxRtesvBZ8YWxfj0T4cPteWS6xiBKMfjedwWj5BDS6jQ%25eEq2Ydw6Zujl4ptQ%25wc36scifZu%25KXw0ZHSc3uBr%25AWJdKX324uYfTQBrXpF3tHlZ24riIggKscpF4HvUR30KiIFJGbYXABHvIT9htZO2JGvloqSUgpT9GsLmMhUilo90y7tDbHsLoAC1RchJ0yLOEVxmqTACygNzIumlOECUkava7sgNEbnUXL10UkNh5byyVAbnkq8hVZzOSnjXWPkJEF%255SYCjyON74mvhU26" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">BMW X3 xDrive30e</h5>
+                    <p class="card-text">Gasolina</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;" src="https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYf6J7V10tLhu1XzWVo7puMLWFmdkAj5DOP%25oo%25Z8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74gi8WNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYpiyWh1DMSkph5ZzrVAbnkMLZACt%25whJ0yLkItJG8WBABHvIL38BrU0VJdKX3IjEdwsQhBDS6j3a9DxiajdnMRajm4n12SJDyk7mag%25ybQCsnvLUgmlWv0YGeyXIslgpVXH5pcv63iplZh6KCZiXRjcZptARSG0167aftZ8J7MrJfRUmP8tEBUkwB17sgNE89dsLx7MUilo9E4DiI1l3scpF49%25nc3bOeifZu%254Wyfj0T4cPteW%25VvPa7VLfN8zVWhXNmU3iPoEqhVA6ogsPqNF9OAhJRFliNFou4TJAB7upcowFe%252BJdUeZfFPuzWQdBDsztPOReqVYDdniq8WWgzOh5nDycOEV%25GqTACynvfT9hfgO2JGvyXP24AO2TQBrXv6NQ%25JL92Ydw6XRoYWBHZQ5DxR67F5VdOJYCn17RUuChyD45GybU7seGAvdHCrv0sUizrJXDGGwXHiscqwB6SSrx6KcifOxdRLww1pf4oXQtUDCvSpKM4P1YeyWNRz0F" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">BMW X4</h5>
+                    <p class="card-text">Gasolina</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;" src="https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYf6G7T10tLhu1XzWVo7puMLWFmdkAj5DOPcQV%25Z8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74g37WNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYV2GWh1DMztzOaeqVYDafaAPjmztYRSJtP67aftxdTlkw1RSfWQlUY%25VxdSeZs3EuzWQdjc0kN3aeZQ6KAnVXRjcZwBLv5rx6Kc%252yKH4WwBKupCVuFe%252B3inPVIjup2XH5rzv63iprJ849GwXHi4TPzu9%25rJHFlMROou4TJIsDb6L3FlTv0Yn1yXIslGAtvkCrv0s9OfRoE4GA0ogSkkNF9OALUdtzkIogOybAh5nvLUgChOY15GybUEqgtZ89ChbNmUFYPoEqhk7fSnMLNmqn1Sd9Dyk7m5VdQHYCn178zQuotE5V1PaZ2GfN8zVMRcpdSkPazDxM07dnMRaYWDAQQ5DxRteYVVZ8YWxfjtOccPteWS6Wi3KMfjedweCXBDS6jQ%25jbt2Ydw6Zu6QeptQ%25wc3wHDifZu%25KXVBHHSc3uBrzQAJdo3Om04uMwVbXov6Ojd%25p12aKZng" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">BMW X5</h5>
+                    <p class="card-text">Gasolina-Blindados</p>
+                  </div>
+                </div>
+                <div class="card">
+                    <img data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;" src="https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYfFdsd10tLhu1XzWVo7puMLWFmdkAj5DOPcjV%25Z8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74giA8NF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYVb6Wh1DMztIAzeqVYDafvRAjmztYRSDXc67aftxdXJhw1RSfWQrvU%25ViSFLrZfbYEGdiBDFMVtjCekxaAI" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">BMW X6</h5>
+                      <p class="card-text">Gasolina</p>
+                    </div>
+                  </div>
+              </div>
+              <hr class="my-4">
+            
+              <div class="card-deck">
+                <div class="card">
+                  <img data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;" src="https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYf6Gsd10tLhu1XzWVo7puMLWFmdkAj5DOPcjL%25Z8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74giA8NF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYV2GWh1DMztzOaeqVYDafaOPjmztYRSRmu67aftxdTfMw1RSfWQlsn%25VxdSeZsbtuzWQdjc0X73aeZQ6KAnkXRjcZwBO5zrx6Kc%252yG84WwBKupk3QFe%252B3inXVIjup2XH5rGv63iprJ8V%25GwXHi4TPaA9%25rJHFlMUjou4TJIsDFtL3FlTv0YCCyXIslGAtM7Crv0s9OlgNE4GA0ogsPqNF9OALU0MLkIogOybADdnvLUgChOYZ5GybUEqg4D89ChbNmt2%25PoEqhk7fSnMLNmqn1Sd9Dyk7m5VdQHYCn178zQuotE5V1PaZ2GfN8zVMRcpdSkPazDxM07dnMRaYWDAQQ5DxRteYVVZ8YWxfjtO9cPteWS6Wi3KMfjedweCXBDS6jQ%25jbt2Ydw6Zu6QeptQ%25wc3wHDifZu%25KXVBHHSc3uBrzQAJdo3Om04uMwVbXov6Ojd%25p12aKZng" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">BMW X6 2020</h5>
+                    <p class="card-text">Gasolina</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;" src="https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYfQdQl10tLhu1XzWVo7puMLWFmdkAj5DOPccf%25Z8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74giLhNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYV05Wh1DMztileeqVYDafH6ojmztYRSJyL67aftxdTCkw1RSfWQlEv%25VxdSeZG4NuzWQdjc9NR3aeZQ6KownXRjcZwBL%25mrx6KcOxgmqTACygNWaImlOECUkeie7sgNEbn%25RP10UkNh5urMVAbnkq834azOh5nmPX7Jagq857Mr1xRUmP81D4YSxb7MPVYFt9Wh1DMztIlJeqVYDafv3LjmztYRSGjM67aftxd9Uww1RSfWQosX%25VxdSeZL06uzWQdjcyX23aeZQ6KCoXXRjcZwBELsrx6Kc%252ZKb4WwBKupciIFe%252B3iKLlIjup2XHByXv63iprJ2C3GwXHi4TpE89%25rJHFliNJou4TJIsHkDL3FlTv0J69yXIslGAnnbCrv0s9O5QJE4GA0og8j3NF9OALUPMykIogOybMD4nvLUgChDYK5GybUEqYtD89ChbNmtfnPoEqhk7fSYMLNmqn1SwtDyk7m5VdaxYCn178zQRAtE5V1PaZxjfN8zVMRc4XSkPazDxKiUdnMRaYWBHLQ5DxRte2m2Z8YWxfjtO9cPteWS6fgBKMfjedwSIJBDS6jQ%25dDt2YI6lUJujnWqAwIrxlRYechZ7dfCs" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">BMW X7</h5>
+                    <p class="card-text">Gasolina</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;" src="https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYfyn1y10tLhu1XzWVo7puMLWFmdkAj5DOPDUAoubf4Bw8j7aA5qntUp6xbZOMVXuMwVQX9v6ODubLz2aKqfkR6jmB2fJj5DOPMEagd%25kcWExHWpbl8FO2k3Hy2o242tTTQBrXpFpYulZ24riIqgRscpF4HvmJx0KiIFJG7SJABHvIT9aheO2JGvloRsdgpT9GsLx9FUilo90yWokbHsLoACeQThJ0yLOEjcmqTACygN6MimlOECUkwRS7sgNEbn%25Dw10UkNh5u1CVAbnkq83KxzOh5nmPkeRagq857Mn80RUmP81D5YAxb7MPVY8T9Wh1DMztPuzeqVYDafM3VjmztYRS33167aftxdXyMw1RSfWQrgu%25VxdSeZ4FeuzWQdjcFAs3aeZQ6KIorXRjcZwB6n5rx6Kc%252wdd4WwBKup%255FFe%252B3iuzcIjA2y5oHBzcMNpAlZyQjKrPXYuwmC" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">BMW X3 M</h5>
+                    <p class="card-text">Gasolina</p>
+                  </div>
+                </div>
+                <div class="card">
+                    <img data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;" src="https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYf7S7D10tLhu1XzWVo7puMLWFmdkAj5DOPDULoubf4Bw8j7aA5qntUp6xbZOMVXuMwVQX9v6ODubLz2aKqfkYmjmB2fJj5DOPMEagd%25kcWExHWpbl8FO2k3Hy2o242tTTQBrXpFpYulZ24riIn0ascpF4HvmUx0KiIFJG7TWABHvIT9aheO2JGvloRsdgpT9GsLx9FUilo90yWokbHsLoACeQThJ0yLOEjcmqTACygN6MimlOECUkwRS7sgNEbn%25Dw10UkNh5u1CVAbnkq83KxzOh5nmPX%25Qagq857MnjxRUmP81D5PAxb7MPVY8tOWh1DMztPloeqVYDafM3ajmztYRSDXz67aftxdXXVw1RSfWQrCD%25VxdSeZ4U3uzWQdjcFIj3aeZQ6KIO0XRjcZwBvL4rx6Kc%252Gt54WwBKup%258PFe%252B3iuP3Ijup2XH3ccv63iprJXMGGwXHi4Trx29%25UHNMClix2t5JUABNK%25pIYFSr3Vk" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">BMW X4 M</h5>
+                      <p class="card-text">Gasolina</p>
+                    </div>
+                  </div>
+              </div>
+              <hr class="my-4">            
+          </div>
+          <div class="carousel-item">
+            <div class="card-deck">
+                <div class="card">
+                  <img data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;" src="https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYfyIsd10tLhu1XzWVo7puMLWFmdkAj5DOP4hO%25Z8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74giZ8NF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYVOsWh1DMztI0oeqVYDafa3mjmztYRSRHL67aftxdxbWw1RSfWQWqU%25VxdSeZsdYuzWQdjc0KX3aeZQ6KABxXRjcZwBOgMrx6Kc%252g7Q4WwBKupUI8Fe%252B3ibMPIjup2XHhDrv63iprJqYwGwXHi4TnCt9%25rJHFl5txou4TJIs8fzL3FlTv0PGdyXIslGAtnQCrv0s9OfQ6E4GA0ogSZkNF9OALUdylkIogOybQCunvLUgChZE85GybUEqcbA89ChbNmKhzPoEqhk7B1aMLNmqn12rCDyk7m5VpbYYCn178ziJhtE5V1PaHTGfN8zVMRJGdSkPazDxT%25odnMRaYWluEQ5DxRtesulZ8YWxfj0GScPteWS6AEbKMfjedwWQXBDS6jQ%25e682Ydw6Zuj3iptQ%25wc36keifZu%25KXwn1HSc3uBr%256PJdKX324uO2TQBrXpF3gmlZ24riIXUqscpF4HvrSQ0KiIFJG4dUABHvIT9hWrO2JGvloqfcgpT9GsLmdbUilo90y71AbHsLoAC1VphJ0yLOEVzwqTACygNzf1mlOECUkaQS7sgNEbnRjp10UkNh5x6zVAbnkq8WoWzOh5nmPqesagq857MmINRUmP81D7vSxb7MPVY1GWWh1DMztVlgeqVYDafz88jmztYRSao6672tr93dYgMyIf2cPr87DWLxEaVs4" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">BMW Serie 1</h5>
+                    <p class="card-text">Gasolina</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;" src="https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYfyIsd10tLhu1XzWVo7puMLWFmdkAj5DOP4hO%25Z8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74gSQNNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYVOsWh1DMztI0oeqVYDafa3mjmztYRSRHL67aftxdxbWw1RSfWQWqU%25VxdSeZsdYuzWQdjc0KX3aeZQ6KABxXRjcZwBOgMrx6Kc%252g7Q4WwBKupUI8Fe%252B3ibMPIjup2XHhDrv63iprJqYwGwXHi4TnCt9%25rJHFl5txou4TJIs8fzL3FlTv0PGdyXIslGAtnQCrv0s9OfQ6E4GA0ogSZkNF9OALUdylkIogOybQCunvLUgChZE85GybUEqcbA89ChbNmKhzPoEqhk7B1aMLNmqn12rCDyk7m5VpbYYCn178ziJhtE5V1PaHTGfN8zVMRJGdSkPazDxT%25odnMRaYWluEQ5DxRtesulZ8YWxfj0GScPteWS6AEbKMfjedwWQXBDS6jQ%25e682Ydw6Zuj3iptQ%25wc36keifZu%25KXwn1HSc3uBr%256PJdKX324uO2TQBrXpF3gmlZ24riIXUqscpF4HvrSQ0KiIFJG4dUABHvIT9hWrO2JGvloqfcgpT9GsLmdbUilo90y71AbHsLoAC1VphJ0yLOEVzwqTACygNzf1mlOECUkaQS7sgNEbnRjp10UkNh5x6zVAbnkq8WoWzOh5nmPqesagq857MmINRUmP81D7vSxb7MPVY1GWWh1DMztVlgeqVYDafz88jmztYRSao6672tr93dYgMyIf2cPr87DWLxEaVs4" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">BMW M135i xDrive</h5>
+                    <p class="card-text">Gasolina</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;" src="https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYfvGsd10tLhu1XzWVo7puMLWFmdkAj5DOPFcO%25Z8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74g3QNNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYpwWWh1DMzti9JeqVYDafHS7jmztYRSJ0667aftxdTA%25w1RSfWQlh8%25VxdSeZsbtuzWQdjc9j63aeZQ6KCIqXRjcZwBE%25mrx6Kc%252NmJ4WwBKupko3Fe%252B3inOsIjup2XH5NPv63iprJ2ysGwXHi4TpFA9%25rJHFliNOou4TJIsHkSL3FlTv7w1xbZP%25F6Y8snGXMZSk%25Nb5zvVo7qHu" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">BMW Serie 1 "3 puertas"</h5>
+                    <p class="card-text">Gasolina-Blindados</p>
+                  </div>
+                </div>
+                <div class="card">
+                    <img data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;" src="https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYf7GZg10tLhu1XzWVo7puMLWFmdkAj5DOPF%25O%25Z8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74giZ%25NF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYpwWWh1DMzti9JeqVYDafHoPjmztYRSJd167aftxdTA%25w1RSfWQlsn%25VxdSeZsbtuzWQdjc9Q23aeZQ6KCIqXRjcZwBE%25mrx6Kc%252NmJ4WwBKupko3Fe%252B3inSxIjup2XHBLlv63iprJ240GwXHi4TpEA9%25rJHFliNfou4TJIsFN6L3FlTv0ISiyXIslGAvdCCrv0s9OGJJE4GA0og9QNNF1AMd8U0%25lctO1qTMJFsyZLB9veD" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">BMW 1 Serie "5 puertas"</h5>
+                      <p class="card-text">Gasolina</p>
+                    </div>
+                  </div>
+              </div>
+            
+          </div>
+          <div class="carousel-item">
+            <div class="card-deck">
+                <div class="card">
+                  <img data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;" src="https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYf7Gf%2510tLhu1XzWVo7puMLWFmdkAj5DOP7oo%25Z8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74giZ%25NF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYpw%25Wh1DMztINqeqVYDafHS6jmztYRSJd167aftxdTlkw1RSfWQluC%25VxdSeZsNEuzWQdjc0kj3aeZQ6KAnVXRjcZwBLv5rx6Kc%252yud4WwBKupC3PFe%252B3iELjIjup2XH5rGv63iprJ8iKGwXHi4TPHA9%25rJHFlMa3ou4TJIsDxgL3FlTv0YheyXIslGAtq%25Crv0s9Of8oE4GA0ogs8kNF9OALU0ymkIogOybAgrnvLUgChOq45GybUEqgmP89ChbNmU3iPoEqhk7bg4MLNmqn1hdnDyk7m5VqQKYCn178zm9StE5V1PaZZkfN8zVMRcvySkPazDxKsCdnMRaYWB2YQ5DxRte2pfZ8YWxfjpiOcPteWS6iHpKMfjedwHJZBDS6jQ%25JTi2Ydw6ZuToHptQ%25wc3lrIifZu%25KXsEyHSc3uBr0WwJdKX324AeATQBrXpF2z%25lZ24riIpasscpF4Hvi330KiIFJGHRAABHvIT9IgwO2kvmRhoId4eVGkCrmX2FsWl6JiY7" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">BMW Serie 2 Coupé</h5>
+                    <p class="card-text">Gasolina</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;" src="https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYf6nbr10tLhu1XzWVo7puMLWFmdkAj5DOP75A%25Z8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74giAwNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYpZMWh1DMztIAzeqVYDafHS6jmztYRSJd167aftxdTULw1RSfWQlsn%25VxdSeZGjNuzWQdjc9Ia3aeZQ6KCwfXRjcZwBE%25mrx6Kc%252NKd4WwBKupkBTFe%252B3in76Ijup2XH5cvv63iprJ8z9GwXHi4TPgR9%25rJHFlMUjou4TJIsDUML3FlTv0JGUyXIslGATs%25Crv0s9OleZE4GA0ogsTwNF9OALU0MLkIogOybMMGnvLUgChD%2545GybUEqYBF89ChbNmt1aPoEqhk7f%256MLNmqn1kHJDyk7m5VnbbYCn178z5GNtE5V1Pa1SOfNwVKJZR19mspzweqKhN7DlMA8nFB" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">BMW Serie M2 Coupé</h5>
+                    <p class="card-text">Gasolina</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;" src="https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYfvGsd10tLhu1XzWVo7puMLWFmdkAj5DOPEfo%25Z8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74g36INF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYpMFWh1DMztifmeqVYDafHsjjmztYRSJ0w67aftxdTgDw1RSfWQlum%25VxdSeZsNzuzWQdjc9Fk3aeZQ6KokgXRjcZwBL2Urx6Kc%252y9W4WwBKupCofFe%252B3inoMIjup2XH5rzv63iprJ849GwXHi4TPDR9%25rJHFlMUxou4TJIsDqTL3FlTv0YPSyXIslGATnUCrv0s9OlohE4GA0ogsA3NF9OALU0bnkIogOybAsunvLUgChOY25GybUEqYm889ChbNmt2%25PoxhSBt7b4giZqxzOSAoUnpkJEyud" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">BMW Serie 2 Active Tourer</h5>
+                    <p class="card-text">Gasolina-Blindados</p>
+                  </div>
+                </div>
+                <div class="card">
+                    <img data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;" src="https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYf7GIx10tLhu1XzWVo7puMLWFmdkAj5DOP7Wx%25Z8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74giZVNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYpnMWh1DMztIBBeqVYDaf4UbjmztYRSJ3667aftxdTQ%25w1RSfWQlZz%25VxdSeZsguuzWQdjc0kN3aeZQ6KoInXRjcZwBL%25Srx6Kc%252yu84WwBKupCihFe%252B3iE1TIjup2XHNy6v63iprJ84aGwXHi4TPFo9%25rJHFlMJ2ou4TJIsDTgL3FlTv0YxryXIslGAtHCCrv0s9OfjhE4GA0ogS6kNF9OALUd1%25kIogOybQVrnvLUgChZYE5GybUEqgY189ChbNmUkzPoEqhk7bqvMLNmqn1hVGDyk7m5VqztYCn178zmFltE5V1Pa7qGfN8zVMR1KjSkPazDxVBDdnMRaYWBB8Q5DxRte2ANZ8YWxfjpifcPteWS6iHdKMfjedwHJUBDS6jQ%25JTH2Ydw6ZuTlKptQ%25wc3lsJifZu%25KXsyTHSc3uBr0FGJdKX324AkETQBrXpFOjulZ24riIg6gscpF4HviUd0KiIFJGHkTABHvIT9JBeO2JGvlovU%25gpnG7xqLvQFjz9nE47rpI0eswTHt1" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">BMW Serie 2 Convertible</h5>
+                      <p class="card-text">Gasolina</p>
+                    </div>
+                  </div>
+              </div>      
+              <div class="row row-cols-1 row-cols-md-2 row-cols-md-3 row-cols-md-4">
+                <div class="col mb-4">
+                  <div class="card">
+                    <img data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;" src="https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYfjnsd10tLhu1XzWVo7puMLWFmdkAj5DOPFtpDZ8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74giZFNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYV2GWh1DMztifjeqVYDafHS7jmztYRSJTN67aftxdT%25yw1RSfWQlEC%25VxdSeZsNjuzWQdjc0ka3aeZQ6KoInXRjcZwBLnmrx6Kc%252yu84WwBKupk9PFe%252B3inXVIjup2XH5rGv63iprJ8iKGwXHi4TPHA9%25rJHFlMa3ou4TJIsDpLL3FlTv0YfeyXIslGAtSECrv0s9Ofm6E4GA0ogS73NF9OALUd7SkIogOybAC7nvLUgChOU45GybUEqgmP89ChbNmU3OPoEqhk7bXHMLNmqn1hUFDyk7m5VqQ5YCn178zmZptE5V1Pa7c2fN8zVMR1LCSkPazDxVycdnMRaYWBA1Q5DxRte2oNZ8YWxfjpyKcPteWS6iHdKMfjedwHJ8BDS6jQ%25JTb2Ydw6ZuToPptQ%25wc3lLJifZu%25KXsEyHSc3uBr0UPJdKX324AblTQBrXpFOjOlZ24riIpgSscpF4HviR30KiIFJGHxyABHvIT9JWOO2JGvloTfcgpT9GsLlFFUilo90ysjbbH8oVe7C9cvwRL8kIVFHGO6AusTSz" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">BMW 2 Series Gran Coupé</h5>
+                      <p class="card-text">Gasolina</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-md-3 row-cols-md-4">
+              <div class="col mb-4">
+                <div class="card">
+                  <img data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;" src="https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYf6JZg10tLhu1XzWVo7puMLWFmdkAj5DOPiQO%25Z8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74giAqNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYF1vWh1DMSkph5hiUVAbnkMLZACAYwhJ0yLkItJG89OABHvIL38BrENRJdKX3IjEdw925BDS6j3a9Dx4Q0dnMRajm4n1%25JHDyk7mag%25ybWB4nvLUgmlWv0PkdyXIslgpVXHNMmv63iplZh6KownXRjcZptARSFaM67aftZ8J7MrjTRUmP8tEBUkwb17sgNE89dsLx9FUilo9E4DiI14oscpF49%25nc3bkSifZu%254Wyfj0zccPteW%25VvPaHvefN8zVWhXNmKXMPoEqhVA6ogS7wNF9OAhJRFlMNmou4TJAB7upk4ZFe%252BJdUeZLGJuzWQdBDsztPDgeqVYDdniq8NnBzOh5nDycOEoNmqTACynvfT9FqCO2JGvyXP24uO2TQBrXv6NQ%25eTS2Ydw6XRoYWz2TQ5DxR67F5VqQ7YCn17RUuChOYZ5GybU7seGATwGCrv0sUizrJ2xFGwXHiscqwBvnSrx6KcifOxdXO%25w1RSfcPT1D6wVxb7MPfN2bnRxT10UkNPoQ0y71jbHsLoNFYHvUbg0KiIFou5KXs02HSc3uFeCS6iH2KMfjeuzGMRcXQSkPazeqrk7f64MLNmqzOwLUPh7kIogOqTxIsNV7L3FlTO213ioEVIjup2TQbjcF9X3aeZQ2Y0afukPjmztYQ5HmPeLeagq85YCKgNOu9mlOEC5GSloTeggpT9GCrMpF2%25%25lZ24rGwkZuQhpptQ%25wrxLteYrkZ8Xxi02jRCzgTWX%25Vi18aSOfbYM9H" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">BMW Series 3 Sedán</h5>
+                    <p class="card-text">Gasolina</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card-deck">
+              <div class="card">
+                <img data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;" src="https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYf6Jpw10tLhu1XzWVo7puMLWFmdkAj5DOPFtprZ8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74giUXNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYV2GWh1DMztzC5eqVYDafHS6jmztYRSJTN67aftxdT%25hw1RSfWQluC%25VxdSeZsNEuzWQdjc0k13aeZQ6KoInXRjcZwBLnUrx6Kc%252yud4WwBKupC3PFe%252B3inXvIjup2XH5pcv63iprJ8i0GwXHi4TPzu9%25rJHFlMRLou4TJIsDbWL3FlTv0YhwyXIslGAt5VCrv0s9OfDJE4GA0ogSYVNF9OALU0OXkIogOybAgjnvLUgChOq85GybUEqgtE89ChbNmUfcPoEqhk7bSqMLNmqn1hd2Dyk7m5VqGhYCn178zm9MtE5V1PaZlqfN8zVMRcvySkPazDxK9QdnMRaYWB2tQ5DxRte2pkZ8YWxfjpiOcPteWS6iv2KMfjedwHG5BDS6jQ%25JL92Ydw6ZuTAnptQ%25wc3lOHifZu%25KXsxsHSc3uBrK16JdKX324BVTTQBrXpF2PflZ24riIpuuscpF4Hvia00KiIFJG18bABNIqab9FSrW1vNyXq3B4lxTjHpDm" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">BMW Serie 4 Coupé</h5>
+                  <p class="card-text">Gasolina</p>
+                </div>
+              </div>
+              <div class="card">
+                <img data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;" src="https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYf0jD110tLhu1XzWVo7puMLWFmdkAj5DOP5tpsZ8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74giU2NF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYF0VWh1DMztzr5eqVYDafHJ9jmztYRSaPP67aftxdRyxw1RSfWQvbm%25VxdSeZfFLuzWQdjcybj3aeZQ6KCHyXRjcZwBLv5rx6Kc%252y5b4WwBKupC3PFe%252B3in2ZIjup2XH5Azv63iprJyDKGwXHi4TCze9%25rJHFlERLou4TJIsIefL3FlTv0VeHyXIslGAzQdCrv0s9OD%25DE4GA0ogsuyNF9OALUPRXkIogOybMx8nvLUgChDS85GybUEqCrN89RbfKYmUrOpQhRVAf09gk2NHCL%25S" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">BMW M4 Coupé</h5>
+                  <p class="card-text">Gasolina</p>
+                </div>
+              </div>
+              <div class="card">
+                <img data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;" src="https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYf7GIx10tLhu1XzWVo7puMLWFmdkAj5DOPMoo%25Z8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74gATyNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYpGFWh1DMztIAReqVYDaf4R8jmztYRSJTN67aftxdT%25yw1RSfWQvrE%25VxdSeZGdBuzWQdjc9QFKPoEqhk7Bf4MLNmqn12mUDyk7m5Vp7xYCn178ziFNtE5V1PaHvefN8zVMRJwySkPazDxVKQdnMRaYWztwQ5DxRteaxNZ8YWxfjR6kcPteWS6xybKMfjedwWRNBDS6jQ%25eTr2Ydw6ZuTTfptQ%25wc3lnHifZu%25KXsx7HSc3uBrK0YJdKX324BVwTQBrXpF2zllZ24riIpuuscpF4Hvia00KiIFJGHkZABNIqab9FSrW1vNyXq3B4lxTjHpDm" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">BMW Serie 4 Gran Coupé</h5>
+                  <p class="card-text">Gasolina-Blindados</p>
+                </div>
+              </div>
+              <div class="card">
+                  <img data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;" src="https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYf6JWl10tLhu1XzWVo7puMLWFmdkAj5DOP7tpmZ8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74giULNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYF15Wh1DMztz0NeqVYDafaiojmztYRSRHx67aftxdxbqw1RSfWQlSD%25VxdSeZsc3uzWQdjc0UX3aeZQ6KAOPXRjcZwBO4Vrx6Kc%252gF54WwBKupUP8Fe%252B3ibMxIjup2XHhDuv63iprJkyYGwXHi4TnFt9%25rJHFl5Wtou4TJIs86iL3FlTv0YGCyXIslGAtsHCrv0s9Of0hE4GA0ogS6kNF9OALUd1lkIogOybQVunvLUgChZz45GybUEqc7J89ChbNmKwTPoEqhk7BZgMLNmqn12cjDyk7m5Vq79YCn178zm1rtE5V1Pa7RSfN8zVMR1KjSkPazDxVBDdnMRaYWz2MQ5DxRteaplZ8YWxfjRiWcPteWS6xHAKMfjedwWnxBDS6jQ%25e5c2Ydw6ZuTqWptQ%25wc3lkMifZu%25KXs5JHSc3uBr0A2JdKX324AOfTQBrXpFOgVlZ24riIgkSscpF4HvUnO0KiIFJGbP5ABHvIT9h1SO2JGvloqVUgpT9GsLmXmUilo90ys6IbHsLoAC0whhJ0yLOEAGGqTACygNOYHmlOECUkCKP7sYEx%25anCpLXjNYPox9syh3b4gAcW" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">BMW Serie 4 Convertible</h5>
+                    <p class="card-text">Gasolina</p>
+                  </div>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-md-3 row-cols-md-4">
+              <div class="col mb-4">
+                <div class="card">
+                  <img data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;" src="https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYf6JZg10tLhu1XzWVo7puMLWFmdkAj5DOPEtpmZ8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74gtZLNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYVsaWh1DMztIupeqVYDafaiojmztYRSJdw67aftxdTlkw1RSfWQluq%25VxdSeZs3EuzWQdjc0kN3aeZQ6KAnVXRjcZwBLv5rx6Kc%252yu84WwBKupC7JFe%252B3iEzxIjup2XH5rGv63iprJ8iKGwXHi4TPHA9%25rJHFlMa3ou4TJIsDxyL3FlTv0YheyXIslGAtq%25Crv0s9Of8zE4GA0ogSmfNF9OALUdWpkIogOybQfsnvLUgChZSR5GybUEqgbF89ChbNmUh%25PoEqhk7b1DMLNmqn1hdnDyk7m5VqQ2YCn178zmZ1tE5V1Pa7cHfN8zVMR1L7SkPazDxVytdnMRaYWBA1Q5DxRte2oNZ8YWxfjpyKcPteWS6iHdKMfjedwHJ8BDS6jQ%25JTb2Ydw6ZuToPptQ%25wc3lLJifZu%25KXsEyHSc3uBr0UPJdKX324AeATQBrXpF2z%25lZ24riIpasscpF4HviRH0KiIFJGHXXABHvIT9JxOO2JGvloTQigpnG7xqLvQFjz9nE47rpI0eswTHt1" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">BMW M440i convertible</h5>
+                    <p class="card-text">Gasolina</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-md-3 row-cols-md-4">
+              <div class="col mb-4">
+                <div class="card">
+                  <img data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;" src="https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYf7t8l10tLhu1XzWVo7puMLWFmdkAj5DOPFtp8Z8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74giZ5NF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYVyqWh1DMztIVCeqVYDafHRAjmztYRSJdw67aftxdTlkw1RSfWQlUY%25VxdSeZs3EuzWQdjc0kN3aeZQ6KokgXRjcZwBLnWrx6Kc%252yu84WwBKupC31Fe%252B3iE2TIjup2XHNy6v63iprJ8yaGwXHi4TPFR9%25rJHFlMaxou4TJIsDRzL3FlTv0YiyyXIslGAt5VCrv0s9OfCTE4GA0ogSxZNF9OALUdnqkIogOybQ55nvLUgChZS15GybUEqcdx89ChbNmU2PPoEqhk7bSEMLNmqn1hdmDyk7m5VqQpYCn178zm9MtE5V1PaZlqfN8zVMRcvySkPazDxKBsdnMRaYWB4cQ5DxRte2FNZ8YWxfjpwucPteWS6i9vKMfjedwHsNBDS6jQ%25J0p2Ydw6ZuQhpptvwsbT365emO%25v4WsxtjKqc1QSE0" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">BMW Serie 5 Sedán 2020</h5>
+                    <p class="card-text">Gasolina</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-4">
+                  <div class="card">
+                    <img data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;" src="https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYf0jsd10tLhu1XzWVo7puMLWFmdkAj5DOPHtFhZ8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74gS8NNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYp%254Wh1DMztINweqVYDafaOPjmztYRSRg367aftxdTQ%25w1RSfWQlsy%25VxdSeZsbtuzWQdjc0kN3aeZQ6KoInXRjcZwBLnUrx6Kc%252yu84WwBKupC31Fe%252B3iEaEIjup2XH5Mmv63iprJ84KGwXHi4TPFo9%25rJHFlMaxou4TJIsDpLL3FlTv0YbDyXIslGAtyJCrv0s9OfwTE4GA0ogSxZNF9OALUdtmkIogOybAh5nvLUgChOYC5GybUEqgtb89ChbNmUfKPoEqhk7bI5MLNmqn1SSbDyk7m5Vd49YCn178zQZ8tE5V1PaZcMfN8zVMRcKlSkPazDxKrCdnMRaYWBjwQ5DxRte2vFZ8YWxfjpTCcPteWS6ilBKMfjedwHVHBDS6jQ%25dnt2Ydw6ZuQ5eptQ%25wc3Z8KifG%250hlXw8j7guGFe0Wf6BmKVZdNA" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">BMW M5 Sedán</h5>
+                      <p class="card-text">Gasolina</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card">
+                    <img data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;" src="https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYf7G8310tLhu1XzWVo7puMLWFmdkAj5DOPaNO%25Z8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74giLPNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYpt0Wh1DMztileeqVYDafHs6jmztYRSJOM67aftxdT%25Ww1RSfWQvrE%25VxdSeZGEAuzWQdjc96k3aeZQ6KovRXRjcZwBEvmrx6Kc%252Nu74WwBKupk3IFe%252B3in76Ijup2XH5Vsv63iprJ8UiGwXHi4TPoo9%25rJHFlM5hou4TJIsHNyL3FlTv0JlwyXIslGATOECrv0s9Ol8hE4GA0og88WNF9OALUPbkkIogOybMwsnvLUgChDK65GybUEqYtE89ChbNmtfkPoEqhk7fSpMLNmqn1SdfDyk7m5VdQPYCn178zQZStE5V1PaZ3dfN8zVMRc46SkPazDxM77dnMRaYWD2YQ53RpsBeayVOJx3w1p75zfAtUDPGi" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">BMW Serie 5 Sedan</h5>
+                      <p class="card-text">Gasolina</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          
+          </div>
+          <div class="carousel-item">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-md-3 row-cols-md-4">
+              <div class="col mb-4">
+                <div class="card">
+                  <img data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;" src="https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYfakIl10tLhu1XzWVo7puMLWFmdkAj5DOP4Lj%25Z8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74giALNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYF1zWh1DMztra5eqVYDaf4RLjmztYRSG0l67aftxdTAww1RSfWQluC%25VxdSeZsNGuzWQdjc9Fk3aeZQ6KoAiXRjcZwBEvirx6Kc%252N544WwBKupk8hFe%252B3in7VIjup2XH51xv63iprJ8KKGwXHi4TPse9%25rJHFlM0oou4TJIsDAwL3FlTv0YLvyXIslGAtv9Crv0s9OfRQE4GA0ogSx8NF9OALUdW8kIogOybQ5jnvLUgChZ875GybUEqcdV89ChbNmUfNPoEqhk7bSeMLNmqn1hdmDyk7m5VqQpYCn178zm9MtE5V1PaZZefN8zVMRcsmSkPazDxKBDdnMRaYWB2tQ5DxRte2FyZ8YWxfjpIkcPteWS6i%253KMfjedwHuIBDS6jQ%25JLh2Ydw6ZuTAnptQ%25wc3lOHifZu%25KXcGIHSc3uBrE9pJdo3Om04uMwVbXov6Ojd%25p12aKZng" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">BMW Serie 7 Sedán</h5>
+                    <p class="card-text">Gasolina</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-md-3 row-cols-md-4">
+              <div class="col mb-4">
+                <div class="card">
+                  <img data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;" src="https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYf6JIl10tLhu1XzWVo7puMLWFmdkAj5DOPmmf%25Z8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74g37WNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYVOgWh1DMztIVweqVYDafHLojmztYRSJyN67aftxdIXCw1RSfWQveE%25VxdSeZGg3uzWQdjc9m93aeZQ6KCwrXRjcZwBETVrx6Kc%252ZpF4WwBKupcmPFe%252B3iKL3Ijup2XHBy0v63iprJ2xLGwXHi4TCze9%25rJHFlERLou4TJIsNkvL3FlTv0kn%25yXIslGAn5SCrv0s9O58nE4GA0og8PyNF9OALUPM5kIogOybMq1nvLUgChDjW5GybUEqYdX89ChbNmtstPoEqhk7NoyMLNmqn1c5UDyemQpSVqIbJK7eRUQgyh8H5lkEXZ" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">BMW Serie 8 Coupé</h5>
+                    <p class="card-text">Gasolina</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-4">
+                  <div class="card">
+                    <img data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;" src="https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYfy91y10tLhu1XzWVo7puMLWFmdkAj5DOPj72%25Z8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74gAjiNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYVeyWh1DMztIAzeqVYDafMsLjmztYRSD3w67aftxdRMMw1RSfWQxOq%25VxdSeZs3EuzWQdjcF9h3aeZQ6Kdv6XRjcZwBETVrx6Kc%252GmF4WwBKup%258PFe%252B3iKLnIjup2XH3a4v63iprJ2xFGwXHi4T4x29%25rJHFl71You4TJIsDUML3FlTv0JnlyXIslGAv64Crv0s9O9w5E4GA0ogS8oNF9OALUdylkIogOybLKynvLUgChyK65GaUtcDqgXA2dba10tsGONBEiyowf" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">BMW M8 Coupé</h5>
+                      <p class="card-text">Gasolina</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-md-3 row-cols-md-4">
+              <div class="col mb-4">
+                <div class="card">
+                  <img data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;" src="https://www.bmw.com.bo/content/dam/bmw/common/all-models/z-series/roadster/2018/navigation/bmw-zseries-z4-modelfinder-stage2-890x501.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">BMW Z4 Roadster</h5>
+                    <p class="card-text">Gasolina</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-4">
+                  <div class="card">
+                    <img data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;" src="https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYf6Jpw10tLhu1XzWVo7puMLWFmdkAj5DOPz0o%25Z8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74giAhNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYVsWWh1DMztIVGeqVYDafaiojmztYRSRUx67aftxdTfMw1RSfWQlsn%25VxdSeZsbtuzWQdjc0X73aeZQ6KArkXRjcZwBO5nrx6Kc%252g8a4WwBKupC7JFe%252B3inXvIjup2XH5psv63iprJ8KGGwXHi4TPDo9%25rJHFlMUxou4TJIsDb6L3FlTv0Yn1yXIslGAta9Crv0s9OfD1E4GA0ogs8kNF9OALU0OXkIogOybAhrnvLUgChOq85GybUEqgAX89ChbNmUfaPoEqhk7fpuMLNmqn1Sd5Dyk7m5VdQoYCn178zQZJtE5V1PaZ3efN8zVMRPsmSkPazDxM06dnMRaYWDAQQ5DxRteYVVZ8YWxfjxpucPteWS6Wy3KMfjedweUYBDS6jQ%25jdW2Ydw6Zu6iMptvwsbT365emO%25v4WsxtjKqc1QSE0" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">BMW Z4 M40i</h5>
+                      <p class="card-text">Gasolina</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            
+          </div>
+          <div class="carousel-item">
+            <div class="card-deck">
+              <div class="card">
+                <img data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;" src="https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYfyIsd10tLhu1XzWVo7puMLWFmdkAj5DOP4hO%25Z8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74gSQNNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYVOsWh1DMztI0oeqVYDafa3mjmztYRSRHL67aftxdxbWw1RSfWQWqU%25VxdSeZsdYuzWQdjc0KX3aeZQ6KABxXRjcZwBOgMrx6Kc%252g7Q4WwBKupUI8Fe%252B3ibMPIjup2XHhDrv63iprJqYwGwXHi4TnCt9%25rJHFl5txou4TJIs8fzL3FlTv0PGdyXIslGAtnQCrv0s9OfQ6E4GA0ogSZkNF9OALUdylkIogOybQCunvLUgChZE85GybUEqcbA89ChbNmKhzPoEqhk7B1aMLNmqn12rCDyk7m5VpbYYCn178ziJhtE5V1PaHTGfN8zVMRJGdSkPazDxT%25odnMRaYWluEQ5DxRtesulZ8YWxfj0GScPteWS6AEbKMfjedwWQXBDS6jQ%25e682Ydw6Zuj3iptQ%25wc36keifZu%25KXwn1HSc3uBr%256PJdKX324uO2TQBrXpF3gmlZ24riIXUqscpF4HvrSQ0KiIFJG4dUABHvIT9hWrO2JGvloqfcgpT9GsLmdbUilo90y71AbHsLoAC1VphJ0yLOEVzwqTACygNzf1mlOECUkaQS7sgNEbnRjp10UkNh5x6zVAbnkq8WoWzOh5nmPqesagq857MmINRUmP81D7vSxb7MPVY1GWWh1DMztVlgeqVYDafz88jmztYRSao6672tr93dYgMyIf2cPr87DWLxEaVs4" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">BMW M135i xDrive</h5>
+                  <p class="card-text">Gasolina</p>
+                </div>
+              </div>
+              <div class="card">
+                <img data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;" src="https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYf6nbr10tLhu1XzWVo7puMLWFmdkAj5DOP75A%25Z8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74giAwNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYpZMWh1DMztIAzeqVYDafHS6jmztYRSJd167aftxdTULw1RSfWQlsn%25VxdSeZGjNuzWQdjc9Ia3aeZQ6KCwfXRjcZwBE%25mrx6Kc%252NKd4WwBKupkBTFe%252B3in76Ijup2XH5cvv63iprJ8z9GwXHi4TPgR9%25rJHFlMUjou4TJIsDUML3FlTv0JGUyXIslGATs%25Crv0s9OleZE4GA0ogsTwNF9OALU0MLkIogOybMMGnvLUgChD%2545GybUEqYBF89ChbNmt1aPoEqhk7f%256MLNmqn1kHJDyk7m5VnbbYCn178z5GNtE5V1Pa1SOfNwVKJZR19mspzweqKhN7DlMA8nFB" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">BMW Serie M2 Coupé</h5>
+                  <p class="card-text">Gasolina</p>
+                </div>
+              </div>
+              <div class="card">
+                <img data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;" src="https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYf7Gf110tLhu1XzWVo7puMLWFmdkAj5DOP71O%25Z8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74gSQNNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYpw2Wh1DMztrg8eqVYDafHS6jmztYRSJd167aftxdTlkw1RSfWQluC%25VxdSeZsNEuzWQdjc0kj3aeZQ6KAnVXRjcZwBLv5rx6Kc%252yud4WwBKupC3PFe%252B3iE1TIjup2XHNy6v63iprJ8iKGwXHi4TPHA9%25rJHFlMa3ou4TJIsDpLL3FlTv0YWUyXIslGAteECrv0s9Ofm6E4GA0ogS73NF9OALUdMykIogOybAM5nvLUgChOE15GybUEqgbF89ChbNmU7IPoEqhk7b1DMLNmqn1hrJDyk7m5VqQ5YCn178zmZBtE5V1Pa7odfN8zVMRccnSkPazDxKsCdnMRaYWB2YQ5DxRte2pfZ8YWxfjpiOcPteWS6iHpKMfjedwHJZBDS6jQ%25JTi2Ydw6ZuToHptQ%25wc3lrIifZu%25KXsEgHSc3uBr0WwJdKX324BVwTQBrXpF2zllZ24riIpuuscpF4Hv4Aj0KEFhzUG4fXx7IEL3huKrTRJei2Mq" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">BMW M240i Convertible</h5>
+                  <p class="card-text">Gasolina</p>
+                </div>
+              </div>
+              <div class="card">
+                  <img data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;" src="https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYf7Ssd10tLhu1XzWVo7puMLWFmdkAj5DOPHW3%25Z8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74gajqNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYp0vWh1DMzti08eqVYDafHLbjmztYRSJLn67aftxdIXCw1RSfWQveE%25VxdSeZGFzuzWQdjcy6h3aeZQ6KCwrXRjcZwBEcSrx6Kc%252NKJ4WwBKupkmjFe%252B3in1vIjup2XH5Acv63iprJ8Q3GwXHi4TpCo9%25rJHFliIOou4TJIsHT6L3FlTv0JAwyXIslGATOECrv0s9OleZE4GA0ogsTwNF9OALU0MLkIogOybADonvLUgChDD95GybUEqY2A89ChbNmt7PPoEqhk7frDMLNmqn1SdnDyk7m5VdQ8YCn178zQZJtE5V1PaZcQfN8zVMRcKYSkPazDxKBZdnMRaYWB4cQ5DxRte2vhZ8YWxfjtzzcPteWS6fgKKMfjeAv6oCrms8fnOl6JQD0mbH8irTod9cvFxP" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">BMW M3 Sedan</h5>
+                    <p class="card-text">Gasolina</p>
+                  </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            
+            <div class="card-deck">
+              <div class="card">
+                <img data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;" src="https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYf0jD110tLhu1XzWVo7puMLWFmdkAj5DOP5tpsZ8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74giU2NF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYF0VWh1DMztzr5eqVYDafHJ9jmztYRSaPP67aftxdRyxw1RSfWQvbm%25VxdSeZfFLuzWQdjcybj3aeZQ6KCHyXRjcZwBLv5rx6Kc%252y5b4WwBKupC3PFe%252B3in2ZIjup2XH5Azv63iprJyDKGwXHi4TCze9%25rJHFlERLou4TJIsIefL3FlTv0VeHyXIslGAzQdCrv0s9OD%25DE4GA0ogsuyNF9OALUPRXkIogOybMx8nvLUgChDS85GybUEqCrN89RbfKYmUrOpQhRVAf09gk2NHCL%25S" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">BMW M4 Coupé</h5>
+                  <p class="card-text">Gasolina</p>
+                </div>
+              </div>
+              <div class="card">
+                <img data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;" src="https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYf6JZg10tLhu1XzWVo7puMLWFmdkAj5DOPEtpmZ8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74gtZLNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYVsaWh1DMztIupeqVYDafaiojmztYRSJdw67aftxdTlkw1RSfWQluq%25VxdSeZs3EuzWQdjc0kN3aeZQ6KAnVXRjcZwBLv5rx6Kc%252yu84WwBKupC7JFe%252B3iEzxIjup2XH5rGv63iprJ8iKGwXHi4TPHA9%25rJHFlMa3ou4TJIsDxyL3FlTv0YheyXIslGAtq%25Crv0s9Of8zE4GA0ogSmfNF9OALUdWpkIogOybQfsnvLUgChZSR5GybUEqgbF89ChbNmUh%25PoEqhk7b1DMLNmqn1hdnDyk7m5VqQ2YCn178zmZ1tE5V1Pa7cHfN8zVMR1L7SkPazDxVytdnMRaYWBA1Q5DxRte2oNZ8YWxfjpyKcPteWS6iHdKMfjedwHJ8BDS6jQ%25JTb2Ydw6ZuToPptQ%25wc3lLJifZu%25KXsEyHSc3uBr0UPJdKX324AeATQBrXpF2z%25lZ24riIpasscpF4HviRH0KiIFJGHXXABHvIT9JxOO2JGvloTQigpnG7xqLvQFjz9nE47rpI0eswTHt1" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">BMW M440i Convertible</h5>
+                  <p class="card-text">Gasolina</p>
+                </div>
+              </div>
+              <div class="card">
+                <img data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;" src="https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYf0jsd10tLhu1XzWVo7puMLWFmdkAj5DOPHtFhZ8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74gS8NNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYp%254Wh1DMztINweqVYDafaOPjmztYRSRg367aftxdTQ%25w1RSfWQlsy%25VxdSeZsbtuzWQdjc0kN3aeZQ6KoInXRjcZwBLnUrx6Kc%252yu84WwBKupC31Fe%252B3iEaEIjup2XH5Mmv63iprJ84KGwXHi4TPFo9%25rJHFlMaxou4TJIsDpLL3FlTv0YbDyXIslGAtyJCrv0s9OfwTE4GA0ogSxZNF9OALUdtmkIogOybAh5nvLUgChOYC5GybUEqgtb89ChbNmUfKPoEqhk7bI5MLNmqn1SSbDyk7m5Vd49YCn178zQZ8tE5V1PaZcMfN8zVMRcKlSkPazDxKrCdnMRaYWBjwQ5DxRte2vFZ8YWxfjpTCcPteWS6ilBKMfjedwHVHBDS6jQ%25dnt2Ydw6ZuQ5eptQ%25wc3Z8KifG%250hlXw8j7guGFe0Wf6BmKVZdNA" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">BMW M5 sedán</h5>
+                  <p class="card-text">Gasolina-Blindados</p>
+                </div>
+              </div>
+              <div class="card">
+                  <img data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;" src="https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYfy91y10tLhu1XzWVo7puMLWFmdkAj5DOPj72%25Z8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74gAjiNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYVeyWh1DMztIAzeqVYDafMsLjmztYRSD3w67aftxdRMMw1RSfWQxOq%25VxdSeZs3EuzWQdjcF9h3aeZQ6Kdv6XRjcZwBETVrx6Kc%252GmF4WwBKup%258PFe%252B3iKLnIjup2XH3a4v63iprJ2xFGwXHi4T4x29%25rJHFl71You4TJIsDUML3FlTv0JnlyXIslGAv64Crv0s9O9w5E4GA0ogS8oNF9OALUdylkIogOybLKynvLUgChyK65GaUtcDqgXA2dba10tsGONBEiyowf" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">BMW m8 Coupé</h5>
+                    <p class="card-text">Gasolina</p>
+                  </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            
+            <div class="card-deck">
+              <div class="card">
+                <img data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;" src="https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYf0jxA10tLhu1XzWVo7puMLWFmdkAj5DOPff2%25Z8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74gtZZNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYVehWh1DMztIA1eqVYDafaOPjmztYRSRg367aftxdTlLw1RSfWQluq%25VxdSeZG4NuzWQdjc9NO3aeZQ6KokxXRjcZwBL%255rx6Kc%252yu74WwBKupCzCFe%252B3ino3Ijup2XH5Mvv63iprJ849GwXHi4TPzR9%25rJHFlMRLou4TJIsDUML3FlTv0YLHyXIslGAtadCrv0s9OlgNE4GA0ogsPANF9OALU0M7kIogOybADQnvLUgChOrN5GybUEqYYO89ChbNmt3IPoEqhk7fSnMLNmqn1Sd9Dyk7m5VdQHYCn178zQuotE5V1PaZxefN8zVMRc4XSkPazDxKiodnMRaYWBqBQ5DxRteYOgZ8YWxfjtLkcPteWS6faaKMfjedwSkYBDS6jQ%25dnW2Ydw6ZuQ5cptQ%25wc3Z8BifZu%25KXUMHHS9uAqsr%25P61U39IjAeSw27BzcQkO" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">BMW Serie 8 Gran Coupé M</h5>
+                  <p class="card-text">Gasolina</p>
+                </div>
+              </div>
+              <div class="card">
+                <img data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;" src="https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYfjn8a10tLhu1XzWVo7puMLWFmdkAj5DOPs1O%25Z8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74gSQNNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYFEjWh1DMztzC8eqVYDafa3mjmztYRSRHL67aftxdxbWw1RSfWQlSD%25VxdSeZscauzWQdjc0UX3aeZQ6KAOPXRjcZwBOmdrx6Kc%252gF54WwBKupUP8Fe%252B3ibMXIjup2XHNMmv63iprJ84aGwXHi4TPFo9%25rJHFlMa2ou4TJIsDtWL3FlTv0YheyXIslGAtq%25Crv0s9OfRoE4GA0ogs8hNF9OALU0OXkIogOybAhrnvLUgChOq85GybUEqgAX89ChbNmUfzPoEqhk7bSvMLNmqn1hdxDyk7m5VqGhYCn178zQjftE5V1PaZcPfN8zVMRcKDSkPazDxKBsdnMRaYWB2cQ5DxRte2JSZ8YWxfjtpkcPteWS6fUaKMfjedwSbXBDS6jQ%25dh22Ydw6ZuQNPptQ%25wc3ZeeifZu%25KXcmHHSc3uBru0vJdKX32438GTQBrXpFXVclZ24riIrp3scpF4Hv4AQ0KEFhzUG4fXx7IEL3huKrTRJei2Mq" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">BMW X2 M35i</h5>
+                  <p class="card-text">Gasolina</p>
+                </div>
+              </div>
+              <div class="card">
+                <img data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;" src="https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYfyn1y10tLhu1XzWVo7puMLWFmdkAj5DOPDUAoubf4Bw8j7aA5qntUp6xbZOMVXuMwVQX9v6ODubLz2aKqfkR6jmB2fJj5DOPMEagd%25kcWExHWpbl8FO2k3Hy2o242tTTQBrXpFpYulZ24riIqgRscpF4HvmJx0KiIFJG7SJABHvIT9aheO2JGvloRsdgpT9GsLx9FUilo90yWokbHsLoACeQThJ0yLOEjcmqTACygN6MimlOECUkwRS7sgNEbn%25Dw10UkNh5u1CVAbnkq83KxzOh5nmPkeRagq857Mn80RUmP81D5YAxb7MPVY8T9Wh1DMztPuzeqVYDafM3VjmztYRS33167aftxdXyMw1RSfWQrgu%25VxdSeZ4FeuzWQdjcFAs3aeZQ6KIorXRjcZwB6n5rx6Kc%252wdd4WwBKup%255FFe%252B3iuzcIjA2y5oHBzcMNpAlZyQjKrPXYuwmC" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">BMW X3 M</h5>
+                  <p class="card-text">Gasolina</p>
+                </div>
+              </div>
+              <div class="card">
+                  <img data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;" src="https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYf7S7D10tLhu1XzWVo7puMLWFmdkAj5DOPDULoubf4Bw8j7aA5qntUp6xbZOMVXuMwVQX9v6ODubLz2aKqfkYmjmB2fJj5DOPMEagd%25kcWExHWpbl8FO2k3Hy2o242tTTQBrXpFpYulZ24riIn0ascpF4HvmUx0KiIFJG7TWABHvIT9aheO2JGvloRsdgpT9GsLx9FUilo90yWokbHsLoACeQThJ0yLOEjcmqTACygN6MimlOECUkwRS7sgNEbn%25Dw10UkNh5u1CVAbnkq83KxzOh5nmPX%25Qagq857MnjxRUmP81D5PAxb7MPVY8tOWh1DMztPloeqVYDafM3ajmztYRSDXz67aftxdXXVw1RSfWQrCD%25VxdSeZ4U3uzWQdjcFIj3aeZQ6KIO0XRjcZwBvL4rx6Kc%252Gt54WwBKup%258PFe%252B3iuP3Ijup2XH3ccv63iprJXMGGwXHi4Trx29%25UHNMClix2t5JUABNK%25pIYFSr3Vk" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">BMW X4 M</h5>
+                    <p class="card-text">Gasolina</p>
+                  </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="card-deck">
+              <div class="card">
+                <img data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;" src="https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYf0jxA10tLhu1XzWVo7puMLWFmdkAj5DOPa52%25Z8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74giZQNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYVezWh1DMSkph5u99VAbnkMLZACAKGhJ0yLkItJG8OQABHvIL38BrUMBJdKX3IjEdwOH3BDS6j3a9DxT0jdnMRajm4n12HYDyk7mag%25ybQCsnvLUgmlWv0YGeyXIslgpVXH5JKv63iplZh6KCbqXRjcZptARSG0167aftZ8J7MrJxRUmP8tEBUkwDH7sgNE89dsLxkRUilo9E4DiI1l3scpF49%25nc3bpmifZu%254Wyfj0EccPteW%25VvPaH9mfN8zVWhXNmK4nPoEqhVA6ogSxZNF9OAhJRFlMLAou4TJAB7upkIIFe%252BJdUeZLGJuzWQdBDsztPloeqVYDdniq8NeqzOh5nDycOEozyqTACynvfT9FqaO2JGvyXP24uYiTQBrXv6NQ%25Jhx2Ydw6XRoYWBCXQ5DxR67F5VdaxYCn17RUuChDmH5GybU7seGAnaVCrv0sUizrJykaGwXHiscqwB6SSrx6KcifOxdRLsw1RSfcPT1D7snxb7MPfN2bnUiA10UkNPoQ0yscObH8oVe7C9cvwRL8kIVFHGO6AusTSz" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">BMW X5 M</h5>
+                  <p class="card-text">Gasolina</p>
+                </div>
+              </div>
+              <div class="card">
+                <img data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;" src="https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYfy91y10tLhu1XzWVo7puMLWFmdkAj5DOPcj2%25Z8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74g383NF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYVegWh1DMSkph5uHhVAbnkMLZAC0KGhJ0yLkItJG7STABHvIL38BrUMdJdKX3IjEdwdkHBDS6j3a9DxM77dnMRajm4n125FDyk7mag%25ybQ3nnvLUgmlWv0IfayXIslgpVXHXaKv63iplZh6KAr1XRjcZptARSDXt67aftZ8J7MnsVRUmP8tEBUkait7sgNE89dsLmjFUilo9E4DiIg5kscpF49%25nc3lO5ifZu%254WyfjpwucPteW%25VvPaHIGfN8zVWhXNmK3LPoEqhVA6ogS6kNF9OAhJRFlMUjou4TJAB7upklNFe%252BJdUeZL%25tuzWQdBDsztIA8eqVYDdniq83aDzOh5nDycOEjN9qTACynvfT9aggO2JGvyXP24mbyTQBrXv6NQ%25eEq2Ydw6XRoYWz2YQ5DxR67F5VqQpYCn17RUuChZD25GybU7seGAt9HCrv0sUizrJ8vDGwXHiscqwBEgnrx6KcifOxd9Uew1pf4oXQtUDCvSpKM4P1YeyWNRz0F" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">BMW X6 M</h5>
+                  <p class="card-text">Gasolina</p>
+                </div>
+              </div>
+              <div class="card">
+                <img data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;" src="https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYfQJVw10tLhu1XzWVo7puMLWFmdkAj5DOPcc2%25Z8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74g37WNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYVOSWh1DMztzA8eqVYDafHJEjmztYRSJOM67aftxdT%25hw1RSfWQluC%25VxdSeZsNEuzWQdjc0k83aeZQ6KAnoXRjcZwBL%255rx6Kc%252yu74WwBKupCzCFe%252B3iEz3Ijup2XH5Llv63iprJ8DsGwXHi4TPYo9%25rJHFlMIxou4TJIsDvyL3FlTv0YAdyXIslGAtWjCrv0s9OfexE4GA0ogSPcNF9OALUdNskIogOybQ3nnvLUgChZjM5GybUEqc6k89ChbNmKQPPoEqhk7BZeMLNmqn1hm3Dyk7m5VqztYCn178zmZWtE5V1Pa7cPfN8zVMR1K8SkPazDxVBJdnMRaYWz2RQ5DxRteapsZ8YWxfjRNdcPteWS6ii3KMfjedwHbRBDS6jQ%25JE82Ydw6ZuTlcptQ%25wc3lsDifZu%25KXs0mHSc3uBr0CYJdKX324AEsTQBrXpFOv9lZ24riIgGescpF4HvU8n0KiIFJGb7fABHvIT9h1gO2JGvloq3qgpT9GsLljFUilo90ys6bbHsLoAC0vvhJ0yLOEAwdqTxIsIeiL3FlTv0VzcyXIslGAzjJCrv0s9OaNuE4GA0ogRkZNF9OALUxKckIogOybWBinvLUgChe2S5GybUEqdNp89ChbNmQkrPoEqhk7ZIZMLNmqn1cInDyk7m5VpdRYCn178ziTxtE5V1PaHlSfN8zVMRJD9SkPazDxTYQdnMRaYWleOQ5DxRtesoyZ8YWxfj0L9cPteWS6AHbKMfjedwOKxBDFjTgH%25ekxh06FXRTaDWZbQmStyl" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">BMW X7 M</h5>
+                  <p class="card-text">Gasolina</p>
+                </div>
+              </div>
+              <div class="card">
+                  <img data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;" src="https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYf6Jpw10tLhu1XzWVo7puMLWFmdkAj5DOPz0o%25Z8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74giAhNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYVsWWh1DMztIVGeqVYDafaiojmztYRSRUx67aftxdTfMw1RSfWQlsn%25VxdSeZsbtuzWQdjc0X73aeZQ6KArkXRjcZwBO5nrx6Kc%252g8a4WwBKupC7JFe%252B3inXvIjup2XH5psv63iprJ8KGGwXHi4TPDo9%25rJHFlMUxou4TJIsDb6L3FlTv0Yn1yXIslGAta9Crv0s9OfD1E4GA0ogs8kNF9OALU0OXkIogOybAhrnvLUgChOq85GybUEqgAX89ChbNmUfaPoEqhk7fpuMLNmqn1Sd5Dyk7m5VdQoYCn178zQZJtE5V1PaZ3efN8zVMRPsmSkPazDxM06dnMRaYWDAQQ5DxRteYVVZ8YWxfjxpucPteWS6Wy3KMfjedweUYBDS6jQ%25jdW2Ydw6Zu6iMptvwsbT365emO%25v4WsxtjKqc1QSE0" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">BMW Z4 M40i</h5>
+                    <p class="card-text">Gasolina</p>
+                  </div>
+                </div>
+            </div>
+            <hr class="my-4">            
+          </div>
+        </div>
+      </div>
+
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+      <div class="modal-content modal-dialog  modal-lg ">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">AGENDA TU TEST DRIVE.</h5><br>
+          <p>Por favor, ten en cuenta que todos los campos son obligatorios.</p>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <div class="row">
+                <div class="col-sm-6">
+                  <div class="card">
+                    <div class="card-body">
+                      <br><br><br><br><br>
+                      <h2>BMW <img src="https://img.icons8.com/ios/50/000000/bmw.png" width="50" height="50" alt="" loading="lazy"></h2>
+                      <br><br><br>
+                      <img src="https://thumbs.gfycat.com/CautiousFrequentHarlequinbug-max-1mb.gif" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="card">
+                    <div class="card-body">
+
+                        <form>
+                          
+                            <div class="form-row">
+                              <div class="form-group col-md-9 cuadro">
+                                <label for="inputState">Saludo:</label>
+                                <select id="inputState" class="form-control" required>
+                                  <option selected></option>
+                                  <option>Sr.</option>
+                                  <option>Sra.</option>
+                                  <option>Srta.</option>
+                                </select>
+                              </div>
+                              <div class="form-group col-md-9">
+                                <label for="inputNombre">Nombre:</label>
+                                <input type="text" class="form-control" id="inputNombre" required>
+                              </div>
+                              <div class="form-group col-md-9">
+                                <label for="inputApellido">Apellido:</label>
+                                <input type="text" class="form-control" id="inputapellido" required>
+                              </div>
+                              <div class="form-group col-md-9">
+                                <label for="inputEmail4">Email</label>
+                                <input type="email" class="form-control" id="inputEmail4" required>
+                              </div>
+                              <div class="form-group col-md-9">
+                                <label for="inputMovil">Movil:</label>
+                                <input type="text" class="form-control" id="inputMovil" required>
+                              </div>
+                              
+                            </div>
+                            <div class="form-group">
+                              <label for="inputAddress">Cuidad:</label>
+                              <input type="text" class="form-control" id="inputAddress" placeholder="Cuidad-avenida" required>
+                            </div>
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" required>
+                              <label class="form-check-label" for="inlineRadio1">Antes de3 meses.</label>
+                            </div><br>
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                              <label class="form-check-label" for="inlineRadio2">De 3 a 6 meses.
+                              </label>
+                            </div><br>
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                              <label class="form-check-label" for="inlineRadio3">Después de 6 meses.</label>
+                            </div><br>
+                            <br>
+                            <div class="form-group">
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck" required>
+                                <label class="form-check-label" for="gridCheck" >
+                                  Check me out
+                                </label>
+                              </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Sign in</button>
+                          </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+      </div>
+  </div>
+</body>
+
+<footer>
+  <div class="jumbotron">
+    <h1 class="display-4" style="font-size: 2rem;">Compartir!</h1>
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.bmw.com.bo%2F"><img src="https://img.icons8.com/material-rounded/24/000000/facebook-f--v2.png" width="30"/></a>
+    <a href="https://twitter.com/intent/tweet?url=https://www.bmw.com.bo/&text=BMW%20Bolivia"><img src="https://img.icons8.com/ios-filled/48/000000/twitter.png" width="30"/></a>
+    <a href="https://api.whatsapp.com/send?text=http://bmw.com.bo/"><img src="https://img.icons8.com/windows/32/000000/whatsapp--v2.png" width="30"/></a>
+    <hr class="my-4">
+    <p >&copy; BMW GROUP 2020</p>
+  </div>
+</footer>

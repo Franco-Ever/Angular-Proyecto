@@ -2,36 +2,54 @@
 .cont{
     height: 36rem;
     background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/c4370854094307.594caa7ea3765.gif);
-    background-size:100% 45rem;
+    background-size:100% 100%;
     padding: 1rem;
 }
 nav ul li a{
-    font-weight: 800;
-    font-size: 1rem;
+  font-weight: 800;
+  font-size: 1rem;
 }
 header nav ul li a:hover{
-    border-bottom: 5px solid blue;
+  border-bottom: 5px solid blue;
 }
 .texto1{
-    color: #fff;
-    padding: 5rem;
+  color: #fff;
+  padding: 5rem;
 }
 .texto1 h1{
-    font-size: 3rem;
+  font-size: 3rem;
 }
 .texto1 p{
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 .boton{
-    width: 15rem;
-    height: 3rem;
-    background: #0653B6;
-    border: none;
-    color: #fff;
-    border: solid 2px black;
+  width: 15rem;
+  height: 3rem;
+  background: #0653B6;
+  border: none;
+  color: #fff;
+  border: solid 2px black;
+}
+.cotiza{
+  text-align: center;
+}
+.cotiza button{
+  width: 20rem;
+  height: 2.5rem;
+  background: #0653B6;
+  border: none;
+  color: #fff;
+  border: solid 2px black;
 }
 .btn:hover{
-    background-color: #835D44;
+  background-color: #835D44;
+}
+.opciones:hover{
+  background-color:#0653B6;
+  border-radius: 10px;
+  transition: all 0.5s;
+  color: #fff;
+  border: none;
 }
 
 /*body*/
@@ -136,5 +154,43 @@ height: 40rem;
     .medio {
       background-size: 40rem 20rem;
       background-repeat: no-repeat;
+      height: 20rem;
+
     }
   }
+
+@media screen and (min-width: 1300px) {
+
+  .contenedor{
+    width: 90%;
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+
+}
+.pagination{
+  height: 5rem;
+}
+
+body ul li a{
+    text-align: center;
+    font-weight: 600;
+    border: none;
+    font-size: 0.6rem;
+    border-radius: 10px;
+    color: #666666;
+}
+body ul li a:hover{
+    border-bottom: 5px solid #959597;
+    font-size: 0.9rem;
+    transition: all 0.3s;
+}
+
+
+
+
+/*footer*/
+.jumbotron{
+  padding: 3rem;
+  text-align: right;
+}

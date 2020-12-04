@@ -1,11 +1,6 @@
 /*Header*/
 
-.cont{
-    height: 36rem;
-    background-image: url(https://www.bmw.com.bo/content/dam/bmw/common/home/teaser/bmw-concept-i4-hometeaser-desktop.jpg/_jcr_content/renditions/cq5dam.resized.img.1680.large.time1583221497462.jpg);
-    background-size:100% 100%;
-    padding: 1rem;
-}
+
 nav ul li a{
     font-weight: 800;
     font-size: 1rem;
@@ -42,6 +37,9 @@ header nav ul li a:hover{
     color: #fff;
     border: solid 2px black;
 }
+.btn{
+    background-color: #0653B6; ;
+}
 .btn:hover{
     background-color: #835D44;
 }
@@ -52,8 +50,14 @@ header nav ul li a:hover{
     color: #fff;
     border: none;
 }
+.opciones:hover{
+    background-color:#0653B6;
+    border-radius: 10px;
+    transition: all 0.5s;
+    color: #fff;
+    border: none;
+}
 
-/*body*/
 body ul li a{
     padding: 2rem 2rem 2rem 2rem;
     text-align: center;
@@ -73,10 +77,7 @@ body ul li a:hover{
     border: none;
 }
 
-
-
 /*opciones*/
-
 .card{
     border: none;
 }
@@ -105,12 +106,6 @@ nav a{
     transition: a 0.1s;
 }
 
-/*footer*/
-.jumbotron{
-    padding: 3rem;
-    text-align: right;
-}
-
 @media screen and (min-width: 1300px) {
 
     .contenedor{
@@ -120,3 +115,9 @@ nav a{
     }
   
   }
+
+  /*footer*/
+.jumbotron{
+    padding: 3rem;
+    text-align: right;
+}

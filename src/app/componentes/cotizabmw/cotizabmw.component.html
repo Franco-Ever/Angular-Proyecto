@@ -1,0 +1,143 @@
+<header>
+    <div class="cont dropdown">
+        <nav class="navbar navbar-expand-lg navbar-dark" >
+          <a class="navbar-brand" href="#" style="color: #000;">BWM</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="background-color: #000;">
+            <span class="navbar-toggler-icon" ></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#" style="color: #000;">Servicios <span class="sr-only">(current)</span></a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item opciones" href="/serviciocliente" style="font-family: 'Times New Roman', Times, serif; " >Atencion al clientes</a>
+                  <a class="dropdown-item opciones" href="#" style="font-family: 'Times New Roman', Times, serif;">Accesorios Originales BMW</a>
+                </div>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#" style="color: #000;">Descubre <span class="sr-only">(current)</span></a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item opciones" href="/visioncars" style="font-family: 'Times New Roman', Times, serif; ">Concept Cars</a>
+                </div>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="color: #fff; border: 1px solid #fff;">Search</button>
+                <nav class="navbar navbar-light ">
+                <a class="navbar-brand"  [routerLink]="[ '/redoficial']">
+                    <a href="https://icons8.com/icon/17768/código-de-región"><img src="https://img.icons8.com/ios-filled/50/000000/region-code.png"/></a>
+                </a>
+                </nav>
+                  <nav class="navbar navbar-light ">
+                <a class="navbar-brand" [routerLink]="[ '/inicio']">
+                    <img src="https://img.icons8.com/ios/50/000000/bmw.png" width="50" height="50" alt="" loading="lazy">
+                </a>
+                </nav>
+            </form>
+          </div>
+        </nav>
+        <hr>
+      </div>
+</header>
+
+<body>
+    <div class="row">
+        <div class="col-sm-6">
+          <div class="card" style="border: none;">
+            <div class="card-body" >
+              <h5 class="card-title" style="font-size: 3rem; font-family: 'Times New Roman', Times, serif;">AGENDA TU TEST DRIVE.</h5>
+              <p class="card-text">TE INVITAMOS A REALIZAR UNA PRUEBA DE MANEJO.</p>
+              <br>
+              <p class="card-text">ELIGE EL BMW DE TU PREFERENCIA</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+              <div class="row">
+                  <div class="col-sm-6">
+                    <div class="card" style="border: none;">
+                      <div class="card-body" >
+                        <br><br><br><br><br>
+                        <h2>BMW <img src="https://img.icons8.com/ios/50/000000/bmw.png" width="50" height="50" alt="" loading="lazy"></h2>
+                        <br><br><br>
+                        <img src="https://thumbs.gfycat.com/CautiousFrequentHarlequinbug-max-1mb.gif" alt="">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="card" style="border: none;">
+                      <div class="card-body">
+  
+                          <form>
+                            
+                              <div class="form-row">
+                                <div class="form-group col-md-9 cuadro">
+                                  <label for="inputState">Saludo:</label>
+                                  <select id="inputState" class="form-control" required>
+                                    <option selected></option>
+                                    <option>Sr.</option>
+                                    <option>Sra.</option>
+                                    <option>Srta.</option>
+                                  </select>
+                                </div>
+                                <div class="form-group col-md-9">
+                                  <label for="inputNombre">Nombre:</label>
+                                  <input type="text" class="form-control" id="inputNombre" required>
+                                </div>
+                                <div class="form-group col-md-9">
+                                  <label for="inputApellido">Apellido:</label>
+                                  <input type="text" class="form-control" id="inputapellido" required>
+                                </div>
+                                <div class="form-group col-md-9">
+                                  <label for="inputEmail4">Email</label>
+                                  <input type="email" class="form-control" id="inputEmail4" required>
+                                </div>
+                                <div class="form-group col-md-9">
+                                  <label for="inputMovil">Movil:</label>
+                                  <input type="text" class="form-control" id="inputMovil" required>
+                                </div>
+                                
+                              </div>
+                              <div class="form-group">
+                                <label for="inputAddress">Cuidad:</label>
+                                <input type="text" class="form-control" id="inputAddress" placeholder="Cuidad-avenida" required>
+                              </div>
+                              <div class="form-group">
+                                <label for="inputAddress">Tiempo:</label>
+                              <select class="form-control">
+                                <option>Antes de 3 meses.</option>
+                                <option>De 3 a 6 meses.</option>
+                                <option>Después de 6 meses.</option>
+                              </select>
+                              </div>
+                              <br>
+                              <div class="form-group">
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" id="gridCheck" required>
+                                  <label class="form-check-label" for="gridCheck" >
+                                    Check me out
+                                  </label>
+                                </div>
+                              </div>
+                              <button type="submit" class="btn btn-primary">Enviar</button>
+                            </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+</body>
+<footer>
+    <div class="jumbotron">
+      <h1 class="display-4" style="font-size: 2rem;">Compartir!</h1>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.bmw.com.bo%2F"><img src="https://img.icons8.com/material-rounded/24/000000/facebook-f--v2.png" width="30"/></a>
+      <a href="https://twitter.com/intent/tweet?url=https://www.bmw.com.bo/&text=BMW%20Bolivia"><img src="https://img.icons8.com/ios-filled/48/000000/twitter.png" width="30"/></a>
+      <a href="https://api.whatsapp.com/send?text=http://bmw.com.bo/"><img src="https://img.icons8.com/windows/32/000000/whatsapp--v2.png" width="30"/></a>
+      <hr class="my-4">
+      <p >&copy; BMW GROUP 2020</p>
+    </div>
+  </footer>
