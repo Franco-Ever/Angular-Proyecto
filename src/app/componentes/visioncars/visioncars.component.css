@@ -51,6 +51,13 @@ header nav ul li a:hover{
   color: #fff;
   border: none;
 }
+.taman{
+  font-size: 1rem;
+}
+.taman1{
+  border-left: 0.5rem solid #BBBBBB; 
+  width: 50%;
+}
 
 /*footer*/
 .jumbotron{
@@ -64,6 +71,14 @@ header nav ul li a:hover{
       width: 90%;
       max-width: 1500px;
       margin: 0 auto;
+    }
+  
+  }
+
+  @media screen and (max-width: 600px) {
+
+    .taman p{
+      font-size: 1rem;
     }
   
   }

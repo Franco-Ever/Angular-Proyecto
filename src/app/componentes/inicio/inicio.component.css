@@ -63,6 +63,12 @@ body ul li a{
     border-radius: 10px;
     color: #666666;
 }
+.numerox{
+    background: #959597; 
+    padding: 2rem 2rem 2rem 2rem; 
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
 body ul li a:hover{
     border-bottom: 5px solid #959597;
 }
@@ -104,6 +110,9 @@ nav a{
     background: rgb(219, 219, 219);
     transition: a 0.1s;
 }
+.espacio{
+    padding: 2rem 0rem 1rem 5rem;
+}
 
 /*footer*/
 .jumbotron{
@@ -119,4 +128,25 @@ nav a{
       margin: 0 auto;
     }
   
+  }
+
+  @media screen and (max-width: 600px) {
+
+    body ul li a{
+        padding: 1rem 1rem 1rem 1rem;
+        text-align: center;
+        font-weight: 600;
+        border: none;
+        font-size: 0.5rem;
+        border-radius: 10px;
+        color: #666666;
+    }
+    .numerox{
+        background-color: #959597; 
+        padding: 1rem 1rem 1rem 1rem; 
+        font-size: 0.5rem;
+    }
+    .espacio{
+        padding: 1rem 0rem 1rem 0.5rem;
+    }
   }

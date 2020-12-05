@@ -188,9 +188,21 @@ body ul li a:hover{
 
 
 
-
 /*footer*/
 .jumbotron{
   padding: 3rem;
   text-align: right;
+}
+
+
+@media screen and (max-width: 600px) {
+
+  .pequeño{
+    width: 1rem;
+    display: flex;
+  }
+  .peque{
+    display: flex;
+  }
+  
 }

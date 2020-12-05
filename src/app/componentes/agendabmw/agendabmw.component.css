@@ -57,7 +57,9 @@ header nav ul li a:hover{
     color: #fff;
     border: none;
 }
-
+.espacio{
+    padding: 2rem 0rem 1rem 5rem;
+}
 body ul li a{
     padding: 2rem 2rem 2rem 2rem;
     text-align: center;
@@ -105,6 +107,12 @@ nav a{
     background: rgb(219, 219, 219);
     transition: a 0.1s;
 }
+.numerox{
+    background: #959597; 
+    padding: 2rem 2rem 2rem 2rem; 
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
 
 @media screen and (min-width: 1300px) {
 
@@ -121,3 +129,25 @@ nav a{
     padding: 3rem;
     text-align: right;
 }
+
+@media screen and (max-width: 600px) {
+
+    body ul li a{
+        padding: 1rem 1rem 1rem 1rem;
+        text-align: center;
+        font-weight: 600;
+        border: none;
+        font-size: 0.5rem;
+        border-radius: 10px;
+        color: #666666;
+    }
+    .numerox{
+        background-color: #959597; 
+        padding: 1rem 1rem 1rem 1rem; 
+        font-size: 0.5rem;
+
+    }
+    .espacio{
+        padding: 1rem 0rem 1rem 0.5rem;
+    }
+  }
